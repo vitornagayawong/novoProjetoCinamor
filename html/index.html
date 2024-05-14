@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link href="../css/bootstrapMin.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_img">
+            <img src="../resources/imagens/logo.png" alt="" />
+        </div>
+
+        <nav class="header_nav">
+            <a href="#">Home</a>
+            <a href="#portifolio_apresentacao">Portifólio</a>
+
+            <a href="#feedback">Depoimentos</a>
+            <a href="#location">Localização</a>
+            <a href="">Contatos</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home">
+            <div class="home_presentation">
+                <h1>Melhores Cinammons você encontra aqui!</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                    quia molestias similique, libero, odit eligendi quaerat ipsum ex ea
+                    tenetur laudantium deleniti impedit necessitatibus dolore minima
+                    consectetur ducimus adipisci aliquam itaque quae sunt dolores?
+                    Aliquam blanditiis, odio nobis fugiat, totam tempore nesciunt ipsa
+                    et ratione alias dicta, ducimus repellat officiis.
+                </p>
+            </div>
+
+            <div class="home_img">
+                <img src="../resources/imagens/11.jpeg" alt="" />
+            </div>
+        </div>
+
+        <div class="video_container">
+            <h2>Prontos para experimentar?</h2>
+            <video controls autoplay muted loop class="video_container_v">
+                <source src="../resources/vídeo/WhatsApp Video 2024-04-10 at 15.47.24.mp4" />
+            </video>
+        </div>
+
+        <!--Portifolio-->
+
+        <div class="portifolio_apresentacao" id="portifolio_apresentacao">
+            <h2>Conheça nossos sabores</h2>
+        </div>
+
+
+
+
+        <div class="portifolio_container">
+            <div class="portifolio_container_1">
+                <div class="portifolio_container_1_sabor">
+                    <img src="../resources/imagens/tradicional350x428.jpg" alt="" />
+                    <div class="portifolio_container_content1">
+                        <h3>Tradicional</h3>
+                        <p class="card_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                            laboriosam ex unde, quos nostrum quidem illo nam beatae error
+                            facilis?
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart">
+                        <img onclick="removeCart('tradicional')" src="../resources/imagens/cartadd.png" alt=""
+                            title="Remover do carrinho" />
+                        <img onclick="addCart2('tradicional')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="traditional-quantity">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portifolio_container_1_sabor">
+                    <img src="../resources/imagens/fotos 350x428/tradicionalNozes.jpeg" alt="" />
+                    <div class="portifolio_container_content1">
+                        <h3>Tradicional com nozes</h3>
+                        <p class="card_text">
+                            Desfrute de uma experiência única com um delicioso Cinamor
+                            coberto com nossa irresistível cobertura tradicional de cream cheese,
+                            além de uma generosa camada extra de nozes para um toque de crocância e sabor extra.
+                            Uma combinação perfeita de indulgência e textura em cada mordida!
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart">
+                        <img onclick="removeCart('tradicional-com-nozes')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Remover do carrinho" />
+                        <img onclick="addCart2('tradicional-com-nozes') " src="../resources/imagens/cartadd.png" alt=""
+                            title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="traditional-nutz-quantity">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portifolio_container_1_sabor">
+                    <img src="../resources/imagens/fotos 350x428/nutella.jpeg" alt="" />
+                    <div class="portifolio_container_content1">
+                        <h3>Nutella</h3>
+                        <p class="card_text">
+                            Desfrute da suavidade do cream cheese que se harmoniza
+                            perfeitamente com a doçura envolvente da Nutella!
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart">
+                        <img onclick="removeCart('nutella')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Remover do carrinho" />
+                        <img onclick="addCart2('nutella')" src="../resources/imagens/cartadd.png" alt=""
+                            title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="nutella-quantity">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portifolio_container_2">
+                <div class="portifolio_container_2_sabor">
+                    <img src="../resources/imagens/fotos 350x428/nutellaNozes.jpeg" alt="" />
+                    <div class="portifolio_container_content2">
+                        <h3>Nutella com nozes</h3>
+                        <p class="card_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                            laboriosam ex unde, quos nostrum quidem illo nam beatae error
+                            facilis?
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart">
+                        <img onclick="removeCart('nutella-com-nozes')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Remover do carrinho" />
+                        <img onclick="addCart2('nutella-com-nozes')" src="../resources/imagens/cartadd.png" alt=""
+                            title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="nutella-nutz-quantity">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portifolio_container_2_sabor">
+                    <img src="../resources/imagens/fotos 350x428/doceleite.jpeg" alt="" />
+                    <div class="portifolio_container_content2">
+                        <h3>Doce de leite</h3>
+                        <p class="card_text">
+                            Uma deliciosa unidade de Cinamor, cuidadosamente preparada com a cobertura de cream cheese
+                            mais cremosa e um toque extra de doce de leite,
+                            para você saborear cada mordida com pura indulgência!
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart">
+                        <img onclick="removeCart('doceleite')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Remover do carrinho" />
+                        <img onclick="addCart2('doceleite')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="doceleite-quantity">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portifolio_container_2_sabor">
+                    <img src="../resources/imagens/fotos 350x428/docedeleiteNozes.png" alt="" />
+                    <div class="portifolio_container_content2">
+                        <h3>Doce de leite com nozes</h3>
+                        <p class="card_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                            laboriosam ex unde, quos nostrum quidem illo nam beatae error
+                            facilis?
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart">
+                        <img onclick="removeCart('doceleite-com-nozes')" src="../resources/imagens/cartremove.png" alt="" title="Remover do carrinho" />
+                        <img onclick="addCart2('doceleite-com-nozes')" src="../resources/imagens/cartadd.png" alt="" title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="doceleite-nutz-quantity">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Novo sabor-->
+
+            
+            <div class="portifolio_container_pistache">
+                <video controls autoplay muted loop class="video_container_v">
+                    <source src="../resources/vídeo/pistache.mp4" />
+                </video>
+                <div class="portifolio_container_pistache_compra">
+                    <img class="pistache_image" src="../resources/imagens/pistacheCorreto3.jpeg" alt="" />
+                <div class="portifolio_container_content2">
+                    <h3>Doce de leite com nozes</h3>
+                    <p class="card_text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        laboriosam ex unde, quos nostrum quidem illo nam beatae error
+                        facilis?
+                    </p>
+                </div>
+                <div class="portifolio_container_cart">
+                    <img onclick="removeCart('doceleite-com-nozes')" src="../resources/imagens/cartremove.png" alt="" title="Remover do carrinho" />
+                    <img onclick="addCart2('doceleite-com-nozes')" src="../resources/imagens/cartadd.png" alt="" title="Adicionar ao carrinho" />
+                    <div class="portifolio_container_cart_qtd">
+                        <p>Quantidade no carrinho</p>
+                        <div id="doceleite-nutz-quantity">0</div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+
+
+
+            <!-- <div class="novo_sabor_wrapper">
+                <div class="img_wrapper_frente">
+                    <img src="../imagens/22.jpeg" alt="">
+                </div>
+                <div class="texto_wrapper">
+                    <h2>Pistache</h2>
+                    <p>Descrição produto</p>
+                </div>
+            </div> -->
+
+            <!--Depoimentos e localização-->
+            <div class="feedback_location">
+                <div class="feedback" id="feedback">
+                    <h2>Depoimentos</h2>
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>
+                                    <i>
+                                        Absolutamente sensacional. Massa macia e saborosa, canela e
+                                        açúcar na medida sem ficar enjoativo. A cobertura de cream
+                                        cheese é um absurdo, combina demais. E você ainda pode
+                                        escolher adicionar nutella, doce de leite e/ou nozes em cada
+                                        unidade. Comeria todos os dias facilmente, é incrível. Dá
+                                        pra sentir em cada mordida que foi colocado muita dedicação,
+                                        amor e capricho em cada etapa.
+                                    </i>
+                                </p>
+                                <a href="https://maps.app.goo.gl/RYrH4KjK6tz5j1Vj7" target="_blank">Acesse o depoimento
+                                    no Google</a>
+                            </div>
+                            <div class="carousel-item">
+                                <p>
+                                    <i>
+                                        Uma delícia. Para quem já provou o da Cinnabon dos Estados
+                                        Unidos vai perceber que o sabor é idêntico. Como eles
+                                        conseguem isso? Alguns segredos que eles nos contaram foi
+                                        que usam ingredientes importados e que era o doce preferido
+                                        de um membro da família que imigrou para o Brasil.
+                                    </i>
+                                </p>
+                                <a href="https://maps.app.goo.gl/Th7CbR3w2Wiyi4TeA" target="_blank">Acesse o depoimento
+                                    no Google</a>
+                            </div>
+                            <div class="carousel-item">
+                                <p>
+                                    <i>
+                                        Acredito que a melhor definição seria: com amor! O sabor é
+                                        divino, o atendimento é personalizado, com comunicação leve
+                                        e acolhedora. Se pudesse, daria infinitas estrelas.
+                                        Excelente em todos os aspectos. Recomendo daqui até minhas
+                                        próximas encarnações.
+                                    </i>
+                                </p>
+                                <a href="https://maps.app.goo.gl/ctECowEJYhpXdiJNA" target="_blank">Acesse o depoimento
+                                    no Google</a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="location" id="location">
+                    <h2>Onde você nos encontra</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.032496374222!2d-54.58953892533829!3d-25.53729443714423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f691fbf84c8e8f%3A0x78ff0bc0277001e2!2sCINAMOR!5e0!3m2!1spt-BR!2sbr!4v1713306773034!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!--Contatos -->
+            <address class="end_contact">
+                <div id="title">Entre em contato conosco</div>
+                <div class="contact">
+                    <a href="https://api.whatsapp.com/send/?phone=5545999502473&text&type=phone_number&app_absent=0"
+                        target="_blank">
+                        <img src="https://w7.pngwing.com/pngs/368/1007/png-transparent-logo-whatsapp-scalable-graphics-icon-whatsapp-logo-telephone-call-logo-text-grass-whatsapp-logo-png-thumbnail.png"
+                            alt="Instagram" />
+                    </a>
+                    <a href="https://www.instagram.com/cinamorfoz/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                        <img src="https://img.criativodahora.com.br/2024/01/criativo-65946738a901dMDIvMDEvMjAyNCAxNmg0Mg%3D%3D.jpg"
+                            alt="WhatsApp" />
+                    </a>
+                </div>
+            </address>
+    </main>
+
+    <footer class="foot">
+        <p>Site Cinamor</p>
+    </footer>
+</body>
+
+<button id="checkoutButton" class="buttonzap ">Finalizar Compra</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<script src="../js/index.js"></script>
+
+</html>

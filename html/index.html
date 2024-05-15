@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+
     <link href="../css/bootstrapMin.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="../css/index.css" />
@@ -20,17 +28,16 @@
         <nav class="header_nav">
             <a href="#">Home</a>
             <a href="#portifolio_apresentacao">Portifólio</a>
-
             <a href="#feedback">Depoimentos</a>
             <a href="#location">Localização</a>
-            <a href="">Contatos</a>
+            <a href="#title_contact">Contatos</a>
         </nav>
     </header>
 
     <main>
         <div class="home">
             <div class="home_presentation">
-                <h1>Melhores Cinammons você encontra aqui!</h1>
+                <h1 class="titulos_importantes">Melhores Cinammons você encontra aqui!</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
                     quia molestias similique, libero, odit eligendi quaerat ipsum ex ea
@@ -47,7 +54,7 @@
         </div>
 
         <div class="video_container">
-            <h2>Prontos para experimentar?</h2>
+            <h2 class="titulos_importantes sublinhados">Prontos para experimentar?</h2>
             <video controls autoplay muted loop class="video_container_v">
                 <source src="../resources/vídeo/WhatsApp Video 2024-04-10 at 15.47.24.mp4" />
             </video>
@@ -56,11 +63,8 @@
         <!--Portifolio-->
 
         <div class="portifolio_apresentacao" id="portifolio_apresentacao">
-            <h2>Conheça nossos sabores</h2>
+            <h2 class="titulos_importantes">Conheça nossos sabores</h2>
         </div>
-
-
-
 
         <div class="portifolio_container">
             <div class="portifolio_container_1">
@@ -69,15 +73,16 @@
                     <div class="portifolio_container_content1">
                         <h3>Tradicional</h3>
                         <p class="card_text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                            laboriosam ex unde, quos nostrum quidem illo nam beatae error
-                            facilis?
+                            Nosso exclusivo Cinnamo roll,
+                            cuidadosamente preparado e coberto com nossa irresistível cobertura tradicional
+                            à base de cream cheese. Cada mordida é uma explosão de texturas e sabores,
+                            oferecendo uma experiência gourmet incomparável que vai deixar seu paladar deslumbrado.
                         </p>
                     </div>
                     <div class="portifolio_container_cart">
-                        <img onclick="removeCart('tradicional')" src="../resources/imagens/cartadd.png" alt=""
+                        <img onclick="removeCart('Tradicional')" src="../resources/imagens/cartremove.png" alt=""
                             title="Remover do carrinho" />
-                        <img onclick="addCart2('tradicional')" src="../resources/imagens/cartremove.png" alt=""
+                        <img onclick="addCart2('Tradicional')" src="../resources/imagens/cartadd.png" alt=""
                             title="Adicionar ao carrinho" />
                         <div class="portifolio_container_cart_qtd">
                             <p>Quantidade no carrinho</p>
@@ -98,9 +103,9 @@
                         </p>
                     </div>
                     <div class="portifolio_container_cart">
-                        <img onclick="removeCart('tradicional-com-nozes')" src="../resources/imagens/cartremove.png" alt=""
-                            title="Remover do carrinho" />
-                        <img onclick="addCart2('tradicional-com-nozes') " src="../resources/imagens/cartadd.png" alt=""
+                        <img onclick="removeCart('Tradicional-com-nozes')" src="../resources/imagens/cartremove.png"
+                            alt="" title="Remover do carrinho" />
+                        <img onclick="addCart2('Tradicional-com-nozes') " src="../resources/imagens/cartadd.png" alt=""
                             title="Adicionar ao carrinho" />
                         <div class="portifolio_container_cart_qtd">
                             <p>Quantidade no carrinho</p>
@@ -119,9 +124,9 @@
                         </p>
                     </div>
                     <div class="portifolio_container_cart">
-                        <img onclick="removeCart('nutella')" src="../resources/imagens/cartremove.png" alt=""
+                        <img onclick="removeCart('Nutella')" src="../resources/imagens/cartremove.png" alt=""
                             title="Remover do carrinho" />
-                        <img onclick="addCart2('nutella')" src="../resources/imagens/cartadd.png" alt=""
+                        <img onclick="addCart2('Nutella')" src="../resources/imagens/cartadd.png" alt=""
                             title="Adicionar ao carrinho" />
                         <div class="portifolio_container_cart_qtd">
                             <p>Quantidade no carrinho</p>
@@ -137,15 +142,15 @@
                     <div class="portifolio_container_content2">
                         <h3>Nutella com nozes</h3>
                         <p class="card_text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                            laboriosam ex unde, quos nostrum quidem illo nam beatae error
-                            facilis?
+                            Descubra a perfeição dos nossos Cinnamon Rolls tradicionais,
+                            agora ainda mais deliciosos com uma cobertura extra de Nutella e nozes crocantes.
+                            Uma combinação irresistível de sabores e texturas que vai te conquistar
                         </p>
                     </div>
                     <div class="portifolio_container_cart">
-                        <img onclick="removeCart('nutella-com-nozes')" src="../resources/imagens/cartremove.png" alt=""
+                        <img onclick="removeCart('Nutella-com-nozes')" src="../resources/imagens/cartremove.png" alt=""
                             title="Remover do carrinho" />
-                        <img onclick="addCart2('nutella-com-nozes')" src="../resources/imagens/cartadd.png" alt=""
+                        <img onclick="addCart2('Nutella-com-nozes')" src="../resources/imagens/cartadd.png" alt=""
                             title="Adicionar ao carrinho" />
                         <div class="portifolio_container_cart_qtd">
                             <p>Quantidade no carrinho</p>
@@ -165,9 +170,9 @@
                         </p>
                     </div>
                     <div class="portifolio_container_cart">
-                        <img onclick="removeCart('doceleite')" src="../resources/imagens/cartremove.png" alt=""
+                        <img onclick="removeCart('Doceleite')" src="../resources/imagens/cartremove.png" alt=""
                             title="Remover do carrinho" />
-                        <img onclick="addCart2('doceleite')" src="../resources/imagens/cartremove.png" alt=""
+                        <img onclick="addCart2('Doceleite')" src="../resources/imagens/cartremove.png" alt=""
                             title="Adicionar ao carrinho" />
                         <div class="portifolio_container_cart_qtd">
                             <p>Quantidade no carrinho</p>
@@ -181,14 +186,17 @@
                     <div class="portifolio_container_content2">
                         <h3>Doce de leite com nozes</h3>
                         <p class="card_text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                            laboriosam ex unde, quos nostrum quidem illo nam beatae error
-                            facilis?
+                            Desfrute de um novo nível de indulgência com nosso Cinnamon Roll de doce de leite,
+                            acentuado com pedaços de nozes crocantes.
+                            Cada mordida é uma explosão de sabor decadente e textura irresistível,
+                            garantindo uma experiência deliciosa do início ao fim
                         </p>
                     </div>
                     <div class="portifolio_container_cart">
-                        <img onclick="removeCart('doceleite-com-nozes')" src="../resources/imagens/cartremove.png" alt="" title="Remover do carrinho" />
-                        <img onclick="addCart2('doceleite-com-nozes')" src="../resources/imagens/cartadd.png" alt="" title="Adicionar ao carrinho" />
+                        <img onclick="removeCart('Doceleite-com-nozes')" src="../resources/imagens/cartremove.png"
+                            alt="" title="Remover do carrinho" />
+                        <img onclick="addCart2('Doceleite-com-nozes')" src="../resources/imagens/cartadd.png" alt=""
+                            title="Adicionar ao carrinho" />
                         <div class="portifolio_container_cart_qtd">
                             <p>Quantidade no carrinho</p>
                             <div id="doceleite-nutz-quantity">0</div>
@@ -199,31 +207,37 @@
 
             <!--Novo sabor-->
 
-            
+
             <div class="portifolio_container_pistache">
                 <video controls autoplay muted loop class="video_container_v">
                     <source src="../resources/vídeo/pistache.mp4" />
                 </video>
                 <div class="portifolio_container_pistache_compra">
                     <img class="pistache_image" src="../resources/imagens/pistacheCorreto3.jpeg" alt="" />
-                <div class="portifolio_container_content2">
-                    <h3>Doce de leite com nozes</h3>
-                    <p class="card_text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                        laboriosam ex unde, quos nostrum quidem illo nam beatae error
-                        facilis?
-                    </p>
-                </div>
-                <div class="portifolio_container_cart">
-                    <img onclick="removeCart('doceleite-com-nozes')" src="../resources/imagens/cartremove.png" alt="" title="Remover do carrinho" />
-                    <img onclick="addCart2('doceleite-com-nozes')" src="../resources/imagens/cartadd.png" alt="" title="Adicionar ao carrinho" />
-                    <div class="portifolio_container_cart_qtd">
-                        <p>Quantidade no carrinho</p>
-                        <div id="doceleite-nutz-quantity">0</div>
+                    <div class="portifolio_container_content_pistache">
+                        <div class="title_pistache_inteiro">
+                            <h3 class="title_pistache">Pistache </h3> <b id="destaque_pistache">(novo sabor)</b>
+                        </div>
+                        <p class="card_text_pistache">
+                            Deleite-se com nosso Cinnamon Roll de pistache,
+                            uma combinação única de sabores requintados.
+                            Cada mordida é uma jornada de indulgência,
+                            onde a cremosidade do pistache encontra o calor do rolinho de canela,
+                            resultando em uma experiência culinária sublime e inesquecível
+                        </p>
+                    </div>
+                    <div class="portifolio_container_cart_pistache">
+                        <img onclick="removeCart('Pistache')" src="../resources/imagens/cartremove.png" alt=""
+                            title="Remover do carrinho" />
+                        <img onclick="addCart2('Pistache')" src="../resources/imagens/cartadd.png" alt=""
+                            title="Adicionar ao carrinho" />
+                        <div class="portifolio_container_cart_qtd">
+                            <p>Quantidade no carrinho</p>
+                            <div id="pistache-quantity">0</div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                
+
             </div>
 
 
@@ -238,10 +252,12 @@
                 </div>
             </div> -->
 
+
+
             <!--Depoimentos e localização-->
             <div class="feedback_location">
                 <div class="feedback" id="feedback">
-                    <h2>Depoimentos</h2>
+                    <h2 class="titulos_importantes titulo_depoimentos">Depoimentos</h2>
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -299,7 +315,7 @@
                     </div>
                 </div>
                 <div class="location" id="location">
-                    <h2>Onde você nos encontra</h2>
+                    <h2 class="titulos_importantes sublinhados">Onde você nos encontra</h2>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.032496374222!2d-54.58953892533829!3d-25.53729443714423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f691fbf84c8e8f%3A0x78ff0bc0277001e2!2sCINAMOR!5e0!3m2!1spt-BR!2sbr!4v1713306773034!5m2!1spt-BR!2sbr"
                         width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
@@ -307,29 +323,34 @@
                 </div>
             </div>
 
-            <!--Contatos -->
-            <address class="end_contact">
-                <div id="title">Entre em contato conosco</div>
-                <div class="contact">
-                    <a href="https://api.whatsapp.com/send/?phone=5545999502473&text&type=phone_number&app_absent=0"
-                        target="_blank">
-                        <img src="https://w7.pngwing.com/pngs/368/1007/png-transparent-logo-whatsapp-scalable-graphics-icon-whatsapp-logo-telephone-call-logo-text-grass-whatsapp-logo-png-thumbnail.png"
-                            alt="Instagram" />
-                    </a>
-                    <a href="https://www.instagram.com/cinamorfoz/?igshid=YmMyMTA2M2Y%3D" target="_blank">
-                        <img src="https://img.criativodahora.com.br/2024/01/criativo-65946738a901dMDIvMDEvMjAyNCAxNmg0Mg%3D%3D.jpg"
-                            alt="WhatsApp" />
-                    </a>
-                </div>
-            </address>
+
     </main>
+
+    <!--Contatos -->
+    <address class="end_contact">
+        <div id="title_contact">Entre em contato conosco</div>
+        <div class="contact">
+            <a href="https://api.whatsapp.com/send/?phone=5545999502473&text&type=phone_number&app_absent=0"
+                target="_blank">
+                <img src="https://w7.pngwing.com/pngs/368/1007/png-transparent-logo-whatsapp-scalable-graphics-icon-whatsapp-logo-telephone-call-logo-text-grass-whatsapp-logo-png-thumbnail.png"
+                    alt="WhatsApp" />
+            </a>
+            <a href="https://www.instagram.com/cinamorfoz/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                <img src="https://img.criativodahora.com.br/2024/01/criativo-65946738a901dMDIvMDEvMjAyNCAxNmg0Mg%3D%3D.jpg"
+                    alt="Instagram" />
+            </a>
+        </div>
+    </address>
 
     <footer class="foot">
         <p>Site Cinamor</p>
     </footer>
 </body>
 
-<button id="checkoutButton" class="buttonzap ">Finalizar Compra</button>
+<div class="send_message">
+    <p>Envie seu pedido</p>
+    <button id="checkoutButton" class="buttonzap "></button>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

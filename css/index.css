@@ -146,8 +146,8 @@ pistachio
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
     background-color: var(--secondary-color);
-    max-height: 800px;
-    height: 800px;
+    max-height: 850px;
+    height: 850px;
     position: relative;
 
 }
@@ -176,7 +176,7 @@ pistachio
     justify-content: flex-start;
     align-items: flex-end;
     margin-left: 2rem;
-    gap: 2rem;
+    gap: 1.5rem;
     padding-bottom: 1rem;
     position: absolute;
     bottom: 0;
@@ -221,6 +221,18 @@ pistachio
     font-size: 0.75rem;
     color: blue;
     margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.portifolio_container_cart_qtd div {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+    border-radius: 100%;
+    background-color: lightskyblue;
 }
 
 #portifolio_container_cart_qtd_number {
@@ -271,9 +283,7 @@ pistachio
     height: 25rem;
 }
 
-.carousel-item p {
-    text-decoration: ;
-}
+
 
 .carousel-item p {
     width: 60%;
@@ -283,7 +293,15 @@ pistachio
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.12rem;
+    color: white;
+    font-style: bold;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+    
 }
+
+
+
 
 .carousel-item a {
     margin-left: 25%;
@@ -291,6 +309,7 @@ pistachio
     width: 60%;
     position: absolute;
     bottom: 1rem;
+    color: darkblue;
 }
 
 /* FOOTER ******************************************************************  */
@@ -304,6 +323,8 @@ pistachio
 .foot p {
     text-align: center;
     margin-bottom: 0;
+    font-style: italic;
+    color: lightslategrey;
 }
 
 #title_contact {
@@ -451,7 +472,8 @@ img{
 }
 .card_text, .card_text_pistache {
     font-family: "Pacifico", cursive;
-    font-size: 1.28rem;
+    font-size: 1.24rem;
+    padding: 0.4rem;
 }
 
 .card_text_pistache {

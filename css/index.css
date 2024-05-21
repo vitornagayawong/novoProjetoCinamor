@@ -91,7 +91,36 @@ body {
 .home_presentation {
     text-align: center;
     width: 50%;
+    position: relative;
+    /* z-index: 1; */
 }
+
+.home_presentation p{
+    /* font-family: "Fredoka", sans-serif; */
+    font-family: "Lobster Two", sans-serif;
+    /* font-weight: 700; */
+  font-style: bolder;
+  font-weight: 500;
+  font-size: 1.5rem;
+  /* margin-top: 2rem; */
+  /* background: url(../resources/imagens/bandeiraeua.jpg); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.home_presentation h1 {
+    border-bottom: 1px solid lightblue;
+}
+
+/* .home_presentation img {
+    position: absolute;
+    left: 25px;
+    bottom: 50px;
+    opacity: 0.2;
+    z-index: 0;
+} */
+
 
 .home_img img {
     width: 24.22rem;
@@ -150,6 +179,13 @@ pistachio
     height: 850px;
     position: relative;
 
+}
+
+.portifolio_container_1_sabor,
+.portifolio_container_2_sabor, 
+.portifolio_container_pistache,
+.video_container_v {
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
 }
 
 .portifolio_container_content1,
@@ -251,6 +287,12 @@ pistachio
     justify-content: center; */
     align-items: center;
     /* gap: 1rem; */
+}
+
+.location_data {
+    margin-top: 0.3rem;
+    font-style: italic;
+    font-weight: 400;
 }
 
 /* CAROUSEL ITEM  ******************************************************************  */
@@ -522,4 +564,158 @@ img{
     border-bottom: 2px solid var(--primary-color);
     width: 38%;
     margin: auto;
+}
+
+/* RESPONSIVIDADE TABLETS **************************************************  */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header_nav {
+        display: flex;
+        gap: 0.8rem;
+    }
+
+    .header_nav a  {
+        padding: 0.2rem 0.4rem;
+    }
+
+    .home p {
+        padding: 0 1rem;
+    }
+
+    .video_container_v {
+        width: 80%;
+    }
+
+    .portifolio_container_1, .portifolio_container_2 {
+        flex-direction: column;
+    }
+
+    .portifolio_apresentacao h2 {
+        width: 300px;
+    }
+
+    .portifolio_container_content1, .portifolio_container_2_sabor {
+        width: 350px;
+    }
+
+    .portifolio_container_pistache {
+        flex-direction: column;
+    }
+
+    .video_container_v {
+        margin-bottom: 1rem;
+    }
+
+    .feedback_location {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feedback {
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .end_contact {
+        width: 24%;
+    }
+    
+}
+
+/* RESPONSIVIDADE Iphone * {*************************************************  */
+
+@media screen and (min-width: 428px) and (max-width: 767px) {
+    .header_nav {
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+        /* justify-items: flex-end; */
+        /* justify-content: flex-end; */
+        align-items: center;
+        margin-right: 1rem;
+        gap: 1rem;
+    }
+
+    .header_nav a {
+        font-size: 0.7rem;
+        padding: 0.1rem 0.3rem;
+    }
+
+    .header_nav a:last-child {
+        margin-right: 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .video_container_v {
+        width: 75%;
+    }
+
+    .portifolio_apresentacao h2 {
+        width: 300px;
+    }
+
+    .portifolio_container_1, .portifolio_container_2 {
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .portifolio_container_pistache {
+        flex-direction: column;
+    }
+
+    .video_container_v {
+        margin-bottom: 1rem;
+    }
+
+    .card_text_pistache {
+        margin: auto;
+    }
+
+    .title_pistache {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .title_pistache_inteiro {
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feedback_location {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feedback {
+        justify-content: center;
+        align-items: center;
+        /* width: 40%; */
+    } 
+
+    #carouselExample {
+        width: 60%;
+        /* height: 40rem; */
+    }
+    
+    .carousel-item p {
+        font-size: 0.7rem;
+    }
+    
+    .googlemaps {
+        /* width: 80%; */
+    }
+    
+    .end_contact {
+        width: 200px;
+    }
+    
+    #location iframe{
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
 }

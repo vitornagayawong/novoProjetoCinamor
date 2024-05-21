@@ -89,7 +89,7 @@ function finalizePurchase() {
 
 // Função para enviar mensagem para o WhatsApp
 function sendWhatsAppMessage(message) {
-    const waUrl = `https://api.whatsapp.com/send?phone=5545998228699&text=${message}`; 
+    const waUrl = `https://api.whatsapp.com/send?phone=5545999502473&text=${message}`; 
     window.open(waUrl, '_blank');
 }
 

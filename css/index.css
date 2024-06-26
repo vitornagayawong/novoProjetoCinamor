@@ -358,6 +358,15 @@ pistachio
     padding: 0.7rem;
     margin-top: 0.5rem;
     background-color: var(--primary-color);
+    text-align: center;
+}
+
+.copyright {
+    /* float: left; */
+    color: rgb(61, 61, 61);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    text-decoration: underline;
 }
 
 .foot p {

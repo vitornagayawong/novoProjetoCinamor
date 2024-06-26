@@ -728,3 +728,101 @@ img{
         height: 100%;
     }
 }
+
+/* RESPONSIVIDADE Iphone * {*************************************************  */
+
+@media screen and (max-width: 428px) {
+    .header_nav {
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+        /* justify-items: flex-end; */
+        /* justify-content: flex-end; */
+        align-items: center;
+        margin-right: 1rem;
+        gap: 0.3rem;
+    }
+
+    .header_nav a {
+        font-size: 0.7rem;
+        padding: 0.1rem 0.3rem;
+    }
+
+    .header_nav a:last-child {
+        margin-right: 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .video_container_v {
+        width: 75%;
+    }
+
+    .portifolio_apresentacao h2 {
+        width: 300px;
+    }
+
+    .portifolio_container_1, .portifolio_container_2 {
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .portifolio_container_pistache {
+        flex-direction: column;
+    }
+
+    .video_container_v {
+        margin-bottom: 1rem;
+    }
+
+    .card_text_pistache {
+        margin: auto;
+    }
+
+    .title_pistache {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .title_pistache_inteiro {
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feedback_location {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feedback {
+        justify-content: center;
+        align-items: center;
+        /* width: 40%; */
+    } 
+
+    #carouselExample {
+        width: 60%;
+        /* height: 40rem; */
+    }
+    
+    .carousel-item p {
+        font-size: 0.7rem;
+    }
+    
+    .googlemaps {
+        /* width: 80%; */
+    }
+    
+    .end_contact {
+        width: 200px;
+    }
+    
+    #location iframe{
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+}

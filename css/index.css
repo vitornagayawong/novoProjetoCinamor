@@ -367,6 +367,7 @@ pistachio
     margin-top: 2rem;
     margin-left: 1rem;
     text-decoration: underline;
+    font-style: italic;
 }
 
 .foot p {
@@ -824,5 +825,9 @@ img{
         width: 100%;
         margin: auto;
         height: 100%;
+    }
+
+    .copyright {
+        margin-bottom: 4rem;
     }
 }

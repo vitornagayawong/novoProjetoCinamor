@@ -11,3 +11,8 @@ Premissas do projeto: ●Experiência do Usuário: O site deve oferecer uma expe
 ● Design Responsivo: O site deve ser responsivo, ou seja, adaptável a diferentes dispositivos e tamanhos de tela, garantindo uma experiência consistente em computadores, tablets e smartphones.
 
 REQUISITOS FUNCIONAIS: RF 1 - Acessar a Home. RF 2 - Acessar o Portifólio. RF 3 - Acessar a Localização. RF 4 - Vizualizar os contatos da empresa (números de telefone e fixo). RF 5 - Acessar o "Sobre nós" (história da empresa). RF 6 - Usuário poderá escolhar as opções do portifólio e coloca-lás dentro do carrinho. RF 7 - Finalizar o carrinho e entrar em contato pelo WhatsApp com a empresa com o pedido pronto e formatado. RF 8 - Acessar o WhatsApp da empresa via ícone para tirar dúvidas. RF 9 - Acessar o Instagram da empresa via ícone. RF 10 - Acessar aba de depoimentos dos clientes.
+
+Aprovadora e demandante do projeto:
+
+Angélica Kogeliski de Aguiar
+Segundo semestre, Descomplica UniAmérica.
